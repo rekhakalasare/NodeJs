@@ -1,0 +1,25 @@
+{
+  "name": "userandroles",
+  "version": "1.0.0",
+  "description": "able to create users and provide accesses on collections",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha ./test/*.js --recursive --exit",
+    "start": "nodemon app.js"
+  },
+  "author": "rekha kalasare",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-validator": "^6.14.2",
+    "mongodb": "^4.10.0",
+    "mongoose": "^6.6.1",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.1.0",
+    "node-mocks-http": "^1.11.0",
+    "sinon": "^14.0.1"
+  }
+}
